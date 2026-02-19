@@ -60,9 +60,10 @@
 }
 
 .kn-workspace__main {
-  flex: 0 0 var(--layout-workspace-ratio);
+  flex: 1 1 auto;
   padding: var(--space-md) var(--space-lg);
   overflow-y: auto;
+  max-width: 100%;
 }
 
 .kn-workspace__panel {
