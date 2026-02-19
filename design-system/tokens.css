@@ -1,0 +1,82 @@
+/**
+ * KodNest Premium Build System — Design Tokens
+ * Calm, intentional, coherent. No visual drift.
+ */
+
+:root {
+  /* ─── Color System (max 4 unique colors) ─── */
+  --color-bg: #F7F6F3;           /* 1: background */
+  --color-text: #111111;         /* 2: primary text */
+  --color-text-muted: #111111;   /* same color, softer via usage only */
+
+  --color-accent: #8B0000;       /* 3: primary actions only */
+  --color-accent-hover: #8B0000; /* same to avoid extra hues */
+
+  --color-semantic: #5a6b5a;     /* 4: shared semantic accent */
+  --color-success: #5a6b5a;
+  --color-warning: #5a6b5a;
+
+  --color-border: #111111;       /* reuse text color at low contrast */
+  --color-border-focus: #111111;
+
+  /* ─── Typography (strict scale: 14, 16, 18, 24, 36px) ─── */
+  --font-serif: "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans: "Source Sans 3", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Headings — serif only */
+  --text-h1: 2.25rem;
+  --text-h2: 1.5rem;
+  --text-h3: 1.25rem;
+  --text-heading-line: 1.2;
+  --text-heading-spacing: -0.02em;
+
+  --text-headline: 2.25rem;
+  --text-headline-line: 1.2;
+  --text-headline-spacing: -0.02em;
+
+  --text-subhead: 1.125rem;
+  --text-subhead-line: 1.4;
+
+  /* Body — sans-serif, 16–18px, line-height 1.6–1.8 */
+  --text-body: 1rem;
+  --text-body-large: 1.125rem;
+  --text-body-line: 1.7;
+  --text-body-max-width: 720px;
+
+  --text-small: 0.875rem;
+  --text-small-line: 1.5;
+
+  /* ─── Spacing Scale (strict) ─── */
+  --space-xs: 8px;
+  --space-sm: 16px;
+  --space-md: 24px;
+  --space-lg: 40px;
+  --space-xl: 64px;
+
+  /* ─── Layout ─── */
+  --layout-topbar-height: 56px;
+  --layout-context-header-padding: var(--space-lg) 0;
+  --layout-workspace-ratio: 70%;
+  --layout-panel-ratio: 30%;
+  --layout-footer-height: 80px;
+
+  /* ─── Components ─── */
+  --radius: 6px;
+  --radius-sm: 4px;
+  --transition: 175ms ease-in-out;
+  --transition-fast: 150ms ease-in-out;
+
+  /* Buttons */
+  --btn-padding-y: 8px;
+  --btn-padding-x: 24px;
+  --btn-border-width: 1px;
+
+  /* Inputs */
+  --input-padding-y: 8px;
+  --input-padding-x: 16px;
+  --input-border: 1px solid var(--color-border);
+
+  /* Cards */
+  --card-padding: var(--space-md);
+  --card-border: 1px solid var(--color-border);
+}

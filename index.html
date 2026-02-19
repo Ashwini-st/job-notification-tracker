@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>KodNest Premium Build System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="design-system/design-system.css" />
+  </head>
+  <body>
+    <div class="kn-app">
+      <!-- Top Bar -->
+      <header class="kn-topbar">
+        <div class="kn-topbar__left">
+          KodNest Premium Build System
+        </div>
+        <div class="kn-topbar__center">
+          Step 1 / 4
+        </div>
+        <div class="kn-topbar__right">
+          <span class="kn-status kn-status--not-started">Not Started</span>
+        </div>
+      </header>
+
+      <!-- Context Header -->
+      <section class="kn-context-header">
+        <h1 class="kn-headline">Compose reliable product workspaces</h1>
+        <p class="kn-subhead">
+          A calm, intentional system for building premium SaaS surfaces without visual drift.
+        </p>
+      </section>
+
+      <!-- Workspace -->
+      <main class="kn-workspace">
+        <!-- Primary Workspace (70%) -->
+        <section class="kn-workspace__main">
+          <div class="kn-card">
+            <h2>Primary workspace</h2>
+            <p class="kn-body">
+              Use this area for the core interaction your customer is focused on.
+              Keep actions predictable, spacing consistent, and content within
+              the 720px text width for readable flows.
+            </p>
+
+            <div class="kn-card">
+              <p class="kn-body">
+                This nested card demonstrates balanced padding, a subtle border,
+                and no drop shadows—optimized for serious B2C product work.
+              </p>
+              <button class="kn-btn kn-btn--primary">Primary action</button>
+              <button class="kn-btn kn-btn--secondary">Secondary action</button>
+            </div>
+          </div>
+
+          <div class="kn-card kn-empty" aria-label="Empty state">
+            <div class="kn-empty__title">No workspace content yet</div>
+            <p class="kn-empty__message">
+              Start by defining a single, clear outcome for this screen. Then
+              add just enough UI to support that outcome.
+            </p>
+            <button class="kn-btn kn-btn--secondary">Define outcome</button>
+          </div>
+        </section>
+
+        <!-- Secondary Panel (30%) -->
+        <aside class="kn-workspace__panel">
+          <div class="kn-panel-section">
+            <h3 class="kn-panel-section__title">Step context</h3>
+            <p class="kn-body">
+              Briefly describe what the user is achieving in this step. Avoid
+              hype; focus on clarity and next actions.
+            </p>
+          </div>
+
+          <div class="kn-panel-section">
+            <h3 class="kn-panel-section__title">Prompt</h3>
+            <div class="kn-prompt-box" aria-label="Copyable prompt">
+              <div class="kn-prompt-box__content">
+Design a calm, focused workspace where the primary column contains the
+core interaction and the secondary panel offers concise guidance,
+prompts, and proof of progress.
+              </div>
+              <div class="kn-prompt-box__actions kn-panel-actions" aria-label="Prompt actions">
+                <button class="kn-btn kn-btn--secondary kn-btn--secondary-sm">Copy</button>
+                <button class="kn-btn kn-btn--secondary kn-btn--secondary-sm">Build in Lovable</button>
+                <button class="kn-btn kn-btn--secondary kn-btn--secondary-sm">It Worked</button>
+                <button class="kn-btn kn-btn--secondary kn-btn--secondary-sm">Error</button>
+                <button class="kn-btn kn-btn--secondary kn-btn--secondary-sm">Add Screenshot</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="kn-panel-section">
+            <h3 class="kn-panel-section__title">Error handling</h3>
+            <div class="kn-error" role="status" aria-live="polite">
+              <p class="kn-error__title">We couldn’t apply the latest change</p>
+              <p class="kn-error__message">
+                The workspace failed to refresh. Your existing work is safe.
+              </p>
+              <p class="kn-error__fix">
+                Try reloading the page. If the problem continues, capture a screenshot
+                and share it with your team so they can investigate safely.
+              </p>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <!-- Proof Footer -->
+      <footer class="kn-proof-footer" aria-label="Delivery checklist">
+        <div class="kn-proof-footer__item">
+          <button class="kn-proof-footer__checkbox" aria-label="UI Built"></button>
+          <span>UI Built</span>
+        </div>
+        <div class="kn-proof-footer__item">
+          <button class="kn-proof-footer__checkbox" aria-label="Logic Working"></button>
+          <span>Logic Working</span>
+        </div>
+        <div class="kn-proof-footer__item">
+          <button class="kn-proof-footer__checkbox" aria-label="Test Passed"></button>
+          <span>Test Passed</span>
+        </div>
+        <div class="kn-proof-footer__item">
+          <button class="kn-proof-footer__checkbox" aria-label="Deployed"></button>
+          <span>Deployed</span>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
